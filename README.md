@@ -1,7 +1,7 @@
-# DUT Info2 - FilmProvider
+# DUT Info2 - FilmProvider after clone
 
 ### NOM : LEMOINE
-### Prénom : Matthieu
+### Prénom : Matthieu 
 ### Groupe de TP : 1
 - [x] 1
 
