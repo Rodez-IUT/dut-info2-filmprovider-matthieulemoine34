@@ -17,4 +17,4 @@
 <!ELEMENT prenom (#PCDATA)>
 <!ELEMENT texte ANY>
 
-<!ELEMENT description>
+<!ELEMENT description >
