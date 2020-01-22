@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE librairie SYSTEM "Librairie.dtd">
+<librairie>
+    <enTete>
+        <em>ok</em>, c'est une <strong>librairie</strong>.
+        &copyright;
+    </enTete>
+    <livre ISBN="24-54-958">
+        <titre>XML pour les nuls</titre>
+        <auteur>
+            <liste>
+                <nom>ok</nom>
+                <prenom>google</prenom>
+            </liste>
+        </auteur>
+        <description>
+            c'est un livre.
+        </description>
+        <prix type="TTC">12.50</prix>
+    </livre>
+    <livre ISBN="24-54-959">
+        <titre>livre 2</titre>
+        <auteur>
+            <collectif>
+                <direction>
+                    <nom>Jean</nom>
+                    <prenom>Michel</prenom>
+                </direction>
+                <membres>Personne.</membres>
+            </collectif>
+        </auteur>
+        <description>Le deuxieme livre</description>
+        <prix>10</prix>
+    </livre>
+</librairie>
