@@ -21,7 +21,7 @@
 <!ELEMENT direction (%personne;)>
 <!ELEMENT membres (#PCDATA)>
 
-<!ELEMENT liste (%personne;)>
+<!ELEMENT liste (%personne;)+>
 
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT prenom (#PCDATA)>
