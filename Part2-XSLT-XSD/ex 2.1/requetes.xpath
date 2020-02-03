@@ -2,3 +2,13 @@
 
 /films/film[titre='Minority Report']/resume/text
 
+/films/realisateur[last()]/nom
+
+/films/film[position()=2]/titre
+
+/films/film[contains(resume,"mafia")]
+
+/films/film[resume/image = true()]/titre
+
+/films/film[@id_realisateur=/films/realisateur[nom="Scorsese"]/@id_realisateur]/@annee
+
