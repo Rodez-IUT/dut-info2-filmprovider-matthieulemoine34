@@ -11,15 +11,18 @@
             <table>
                 <thead>
                     <tr>
-                        <th>Titre</th><th>Résumé</th>
+                        <th>Titre</th><th>Résumé</th><th>Réalisateur</th>
                     </tr>
                 </thead>
                 <tbody>
                     <xsl:for-each select="film">
+                        <xsl:variable name="id"><xsl:value-of select="attribute::id_realisateur"></xsl:value-of></xsl:variable>
                         <tr>
                             <td><xsl:value-of select="titre"/></td>
                             <td><xsl:value-of select="resume/text"/></td>
+                            <td><xsl:value-of select="/films/realisateur[@id_realisateur = $id]/prenom"/>_<xsl:value-of select="/films/realisateur[@id_realisateur = $id]/nom"/></td>
                         </tr>
+
                     </xsl:for-each>
                 </tbody>
             </table>
