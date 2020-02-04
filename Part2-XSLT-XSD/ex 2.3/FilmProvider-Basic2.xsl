@@ -4,7 +4,6 @@
 <xsl:template match="/films">
     <html>
         <head>
-            <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
             <title>Films</title>
         </head>
         <body>
@@ -19,7 +18,7 @@
                     <xsl:for-each select="film">
                         <tr>
                             <td><xsl:value-of select="titre"/></td>
-                            <td><xsl:value-of select="resume/text"</td>
+                            <td><xsl:value-of select="resume/text"/></td>
                         </tr>
                     </xsl:for-each>
                 </tbody>
@@ -29,12 +28,5 @@
 
 
 </xsl:template>
-
-
-
-
-
-
-
 
 </xsl:stylesheet>
